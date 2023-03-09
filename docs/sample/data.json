@@ -1,9 +1,9 @@
 {
     "meta": {
         "app_id": "org.example.same.identifier.manifest.package",
-        "app_title": "City Street Heritage",
+        "app_title": "Tailandia",
         "version": 1,
-        "updated": "2022-09-26",
+        "updated": "2023-03-09",
         "source_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/data.json",
         "matomo_base_url": "https://matomo.pbest.me/matomo.php?idsite=1&rec=1",        
         "marketplace_url": ""
@@ -24,36 +24,89 @@
             },
             "pois": [{
                     "id": "uniqueID",
-                    "lat": "50.8789629",
-                    "lon": "4.7013242",
-                    "type": "statue",
-                    "name": "My Statue",
+                    "lat": "13.758889",
+                    "lon": "100.497223",
+                    "type": "Street",
+                    "name": "Khaosan Road",
                     "images": [
-                        "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/images/uniqueID_1.jpg",
-                        "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/images/uniqueID_2.jpg"
+                        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/70/7d/de/dsc-0561-1-largejpg.jpg?w=2000&h=-1&s=1"
+                        
                     ],
-                    "description": "One-paragraph description",
-                    "more": "More description, if you want",
+                    "description": "La calle Khaosan o calle Khao San es una pequeña calle en el centro de Bangkok, Tailandia. Está localizada en el barrio de Banglamphu, aproximadamente un kilómetro al norte del Gran Palacio de Bangkok",
+                    "more": " ",
                     "urls": [
-                        "https://nl.wikipedia.org/wiki/De_Kotmadam_(Leuven)",
-                        "https://example.org/mypoi"
+                        "https://es.wikipedia.org/wiki/Calle_Khaosan"
                     ]
                 },
                 {
                     "id": "uniqueID-2",
-                    "lat": "50.9",
-                    "lon": "4.8",
-                    "type": "statue",
-                    "name": "My Statue",
+                    "lat": "14.3516700",
+                    "lon": "100.5773900",
+                    "type": "Temple",
+                    "name": "Ayutthaya",
                     "images": [
-                        "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/images/uniqueID2_1.jpg",
-                        "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/images/uniqueID2_2.jpg"
+                        "https://cdn.getyourguide.com/img/location/5952b24899963.jpeg/75.jpg"
+                        
                     ],
-                    "description": "One-paragraph description",
+                    "description": "Ayutthaya es una ciudad de Tailandia, situada a unos 80 kilómetros de Bangkok. Fue la capital del reino de Siam y un próspero puerto de comercio internacional entre 1350 y 1767, momento en que fue arrasada por los birmanos. Las ruinas de la antigua ciudad actualmente forman parte del parque histórico de Ayutthaya, un complejo arqueológico con palacios, templos budistas, monasterios y estatuas.",
                     "more": "More description, if you want",
                     "urls": [
-                        "https://nl.wikipedia.org/MyPoi",
-                        "https://example.org/mypoi"
+                        "https://es.wikipedia.org/wiki/Ayutthaya"
+                        
+                    ]
+                },
+
+                {
+                    "id": "uniqueID-3",
+                    "lat": "18.81602",
+                    "lon": "98.89143",
+                    "type": "Temple",
+                    "name": "Doi Suthep",
+                    "images": [
+                        "https://cdn.getyourguide.com/img/tour/5dc10a0534dde.jpeg/146.jpg"
+                        
+                    ],
+                    "description": "Wat Phra That Doi Suthep es un templo budista Theravada en la provincia de Chiang Mai, Tailandia. El templo a menudo se conoce como Doi Suthep, aunque en realidad es el nombre de la montaña donde se encuentra. Es un sitio sagrado para muchos tailandeses.",
+                    "more": " ",
+                    "urls": [
+                        "https://en.wikipedia.org/wiki/Wat_Phra_That_Doi_Suthep"
+                        
+                    ]
+                },
+
+                {
+                    "id": "uniqueID-4",
+                    "lat": "9.1401100",
+                    "lon": "99.3331100",
+                    "type": "Port",
+                    "name": "Surat Thani",
+                    "images": [
+                        "http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcRrTi_Ix730VZDuO8twA2hSRiPj9BmqOtKKgwNmIPnUUjRsWru1KtEULuSWKMLWIbzA"
+                        
+                    ],
+                    "description": "OSurat Thani es una ciudad al sur de Tailandia, capital de la provincia de Surat Thani. Tiene una población de 127.753 habitantes y un área de 68,97 kilómetros cuadrados. Surat Thani se encuentra cerca de la desembocadura del río Tapi, en el golfo de Tailandia.",
+                    "more": " ",
+                    "urls": [
+                        "https://es.wikipedia.org/wiki/Surat_Thani"
+                        
+                    ]
+                },
+
+                {
+                    "id": "uniqueID-4",
+                    "lat": "10.0840043",
+                    "lon": "99.8251992",
+                    "type": "Island",
+                    "name": "Koh Tao",
+                    "images": [
+                        "http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcRrTi_Ix730VZDuO8twA2hSRiPj9BmqOtKKgwNmIPnUUjRsWru1KtEULuSWKMLWIbzA"
+                        
+                    ],
+                    "description": "Ko Tao es una isla tailandesa famosa por sus arrecifes de coral tropicales, con especies como tiburones ballena y rayas. En la zona también se reproducen las tortugas carey y verdes. En la bahía de Mae Haad y cerca de la playa de Sairee hay muchos restaurantes, locales nocturnos y tiendas de artículos de buceo. Las playas repletas de palmeras, como las de la bahía de Chalok Baan Kao, en la costa sur, están rodeadas de villas. En el noroeste, Koh Nang Yuan es un grupo de islotes con vistas desde lo alto de sus colinas.",
+                    "more": " ",
+                    "urls": [
+                        "https://es.wikipedia.org/wiki/Ko_Tao"
+                        
                     ]
                 }
             ]
